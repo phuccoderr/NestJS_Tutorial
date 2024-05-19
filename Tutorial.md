@@ -11,3 +11,7 @@
 npm install class-validator class-transformer
 @IsOptional(): không có cũng được, nếu có phải đúng type data
 ```
+# Install PG TYPEORM @NESJS/TYPEORM
+~~~
+npm i @nestjs/typeorm typeorm pg
+~~~
