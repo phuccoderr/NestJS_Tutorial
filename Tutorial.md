@@ -11,7 +11,21 @@
 npm install class-validator class-transformer
 @IsOptional(): không có cũng được, nếu có phải đúng type data
 ```
+
 # Install PG TYPEORM @NESJS/TYPEORM
-~~~
+
+```
 npm i @nestjs/typeorm typeorm pg
-~~~
+```
+
+# JWT
+
+```
+npm i @nestjs/jwt @nestjs/passport passport passport-jwt
+```
+
+- Validate
+
+```
+npm i @types/passport-jwt
+```
