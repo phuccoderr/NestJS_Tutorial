@@ -29,3 +29,12 @@ npm i @nestjs/jwt @nestjs/passport passport passport-jwt
 ```
 npm i @types/passport-jwt
 ```
+
+# Config
+
+- Fix env on window
+
+```
+npm install -g cross-env
+"start:dev": "cross-env STAGE=dev nest start --watch",
+```
